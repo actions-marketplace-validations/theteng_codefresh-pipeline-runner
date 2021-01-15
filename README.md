@@ -45,7 +45,7 @@ jobs:
         uses: actions/checkout@master
         
       - name: 'run pipeline'
-        uses: codefresh-io/codefresh-pipeline-runner@v5
+        uses: theteng/codefresh-parameter-pipeline-runner@v7
         with:
           args: '-v key1=value1 -v key2=value2'
         env:
