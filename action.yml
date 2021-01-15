@@ -1,4 +1,4 @@
-name: 'Codefresh pipeline runner'
+name: 'Codefresh parameter pipeline runner'
 description: 'Github action that runs codefresh pipeline'
 author: 'codefresh-inc'
 inputs:
